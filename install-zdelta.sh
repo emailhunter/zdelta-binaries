@@ -1,10 +1,10 @@
 #!/bin/bash
 
-wget http://cis.poly.edu/zdelta/downloads/zdelta-2.1.tar.gz
+wget https://github.com/snej/zdelta/archive/master.zip -O zdelta.zip
 
-tar -xzvf zdelta-2.1.tar.gz
+unzip zdelta.zip
 
-cd zdelta-2.1
+cd zdelta-master
 
 sudo make && sudo make install
 

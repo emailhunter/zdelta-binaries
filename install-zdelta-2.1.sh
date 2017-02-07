@@ -1,3 +1,5 @@
+#!/bin/bash
+
 wget http://cis.poly.edu/zdelta/downloads/zdelta-2.1.tar.gz
 
 tar -xzvf zdelta-2.1.tar.gz
